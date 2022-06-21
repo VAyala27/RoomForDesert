@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+li {
+  list-style-type: none;
+}
+
+.blockquote-footer,
+cite {
+  font-family: "Euphoria Script";
+  font-size: 2rem;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.lead{
+  font-size: 18px;
+}
+
+
+.showcase {
+  background: url("/img/header-bg.jpeg") no-repeat center center/cover;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+#contact-header {
+  background: url("/img/desert-bg.jpeg") no-repeat center center/cover;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.showcase-content,
+.contact-header-content {
+  padding-top: 100px;
+}
+
+/* Menu */
+
+.map {
+  height: 75vh !important;
+}
