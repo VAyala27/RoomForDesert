@@ -47,7 +47,7 @@
   }
 
 .showcase-content h1{
-    font-size: 2rem !important;
+    font-size: 3rem !important;
     padding: 1rem;
  }
 
@@ -71,6 +71,10 @@
 
  #main-footer h5{
     font-size: 16px;
+}
+
+#main-footer ul{
+    padding: 0;
 }
     
 #main-footer p{

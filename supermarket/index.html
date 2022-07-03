@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css" />
     <link rel="stylesheet" href="/css/style.css">
     <title>Room For Desert</title>
@@ -19,13 +19,13 @@
 
     <nav class="navbar navbar-expand-xl navbar-light bg-transparent">
         <div class="container">
-            <a href="/home/" class="navbar-brand "><img src="/img/logo.jpeg" class="img-fluid" alt="" height="150px"
+            <a href="/home" class="navbar-brand "><img src="/img/logo.jpeg" class="img-fluid" alt="" height="150px"
                     width="200px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a href="/home" class="nav-link">Home</a>
                     </li>
@@ -41,27 +41,17 @@
                     <li class="nav-item">
                         <a href="/contact" class="nav-link">Contact</a>
                     </li>
-                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Orders
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#myModal">Orders
                         212.828.8011</button>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- <section id="showcase">
-        <div class="showcase-content dark-overlay">
-            <div class="row">
-                <div class="col-md-6 text-center mx-auto">
-                    <h1 class="display-1">Menu</h1>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <section class="showcase">
         <div class="showcase-content dark-overlay">
             <div class="row">
-                <div class="col-md-6 text-center mx-auto">
+                <div class="col-lg-12 text-center mx-auto">
                     <h1 class="display-3">Supermarket Products</h1>
                 </div>
             </div>
@@ -72,40 +62,40 @@
     <div class="container">
         <section id="products">
             <div class="row my-5">
-                <div class="col-sm-12 col-md-4">
-                    <img class="img-fluid" src="/img/tres_leches.jpg" alt="">
+                <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-3">
+                    <img class="img-fluid mb-3" src="/img/tres_leches.jpg" alt="">
                     <h4 class="mb-3">Tres Leches</h4>
                     <p>A traditional Latin favorite, this sponge-cake soaked in a sea of three milks is deliciously
                         light and airy.</p>
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <img class="img-fluid" src="/img/Tiramisu.jpg" alt="">
+                <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-3">
+                    <img class="img-fluid mb-3" src="/img/Tiramisu.jpg" alt="">
                     <h4 class="mb-3">Tiramisu</h4>
                     <p>An Italian favorite with delicate layers of mascarpone mousse and espresso sponge cake, lightly
                         dusted with espresso powder</p>
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <img class="img-fluid" src="/img/Guava_Tres_Leches.jpg" alt="">
+                <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-3">
+                    <img class="img-fluid mb-3" src="/img/Guava_Tres_Leches.jpg" alt="">
                     <h4 class="mb-3">Guava Tres Leches</h4>
                     <p>Dulce de Leche paired with rich cream and a soft sponge cake, topped with a sweet tropical guava
                         glaze.</p>
                 </div>
             </div>
             <div class="row my-5">
-                <div class="col-sm-12 col-md-4">
-                    <img class="img-fluid" src="/img/Traditional_Flan.jpg" alt="">
+                <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-3">
+                    <img class="img-fluid mb-3" src="/img/Traditional_Flan.jpg" alt="">
                     <h4 class="mb-3">Traditional Flan</h4>
                     <p>A creamy flan melted in silky sweetened condensed milk, with a radiant amber caramel finish.</p>
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <img class="img-fluid" src="/img/coming_soon.jpg" alt="">
+                <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-3">
+                    <img class="img-fluid mb-3" src="/img/coming_soon.jpg" alt="">
                     <h1 class="text-danger">Coming Soon</h1>
                     <h4>Tres Leches</h4>
                     <p>Two pound 8" Cake</p>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 col-lg-4 text-center mb-3">
                     <a href="#">Checkout the rest of our dessert Menu.</a>
-                    <img class="img-fluid" src="/img/desert-package.jpeg" alt="">
+                    <img class="img-fluid my-3" src="/img/desert-package.jpeg" alt="">
                 </div>
             </div>
         </section>
@@ -139,27 +129,26 @@
         </div>
     </footer>
 
-    <!-- The Modal -->
     <div id="myModal" class="modal fade bd-example-modal-xl">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Order</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h5 class="modal-title">Order</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
                     <form>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
                                 <div class="form-group">
                                     <label>Name</label>
                                     <input type="text" class="form-control" placeholder="Name">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
                                 <div class="form-group">
                                     <label>Phone</label>
                                     <input type="text" class="form-control" placeholder="Phone">
@@ -167,13 +156,13 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
                                 <div class="form-group">
                                     <label>Address</label>
                                     <input type="text" class="form-control" placeholder="Address">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
                                 <div class="form-group">
                                     <label>City</label>
                                     <input type="text" class="form-control" placeholder="City">
@@ -181,7 +170,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
                                 <div class="form-group">
                                     <label>Zip Code</label>
                                     <input type="text" class="form-control" placeholder="Zip Code">
@@ -193,8 +182,8 @@
                             <label>Item 1</label>
                             <label class="d-none d-md-block">Item 2</label>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
+                        <div class="row mb-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group d-flex">
                                     <select name="item" class="form-control">
                                         <option value=""></option>
@@ -214,23 +203,25 @@
                                         <option value="Tres Leches">Tres Leches</option>
                                         <option value="Traditional Flan">Traditional Flan</option>
                                     </select>
-                                    <select name="qty" class="form-control col-md-3">
-                                        <option value="0">0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="qty" class="form-control">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            <label class="d-md-block d-lg-none mx-auto">Item 2</label>
-                            <div class="col-md-6">
+                            <label class="d-md-block d-lg-none mx-auto text-center">Item 2</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group d-flex">
                                     <select name="item" class="form-control">
                                         <option value=""></option>
@@ -250,28 +241,31 @@
                                         <option value="Tres Leches">Tres Leches</option>
                                         <option value="Traditional Flan">Traditional Flan</option>
                                     </select>
-                                    <select name="qty" class="form-control col-md-3">
-                                        <option value="0">0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="qty" class="form-control">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="d-flex justify-content-around">
                             <label>Item 3</label>
                             <label class="d-none d-md-block">Item 4</label>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group d-flex">
                                     <select name="item" class="form-control">
                                         <option value=""></option>
@@ -291,23 +285,26 @@
                                         <option value="Tres Leches">Tres Leches</option>
                                         <option value="Traditional Flan">Traditional Flan</option>
                                     </select>
-                                    <select name="qty" class="form-control col-md-3">
-                                        <option value="0">0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="qty" class="form-control">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            <label class="d-md-block d-lg-none mx-auto">Item 4</label>
-                            <div class="col-md-6">
+
+                            <label class="d-md-block d-lg-none mx-auto text-center">Item 4</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group d-flex">
                                     <select name="item" class="form-control">
                                         <option value=""></option>
@@ -327,28 +324,31 @@
                                         <option value="Tres Leches">Tres Leches</option>
                                         <option value="Traditional Flan">Traditional Flan</option>
                                     </select>
-                                    <select name="qty" class="form-control col-md-3">
-                                        <option value="0">0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="qty" class="form-control">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="d-flex justify-content-around">
                             <label>Item 5</label>
                             <label class="d-none d-md-block">Item 6</label>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group d-flex">
                                     <select name="item" class="form-control">
                                         <option value=""></option>
@@ -368,23 +368,26 @@
                                         <option value="Tres Leches">Tres Leches</option>
                                         <option value="Traditional Flan">Traditional Flan</option>
                                     </select>
-                                    <select name="qty" class="form-control col-md-3">
-                                        <option value="0">0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="qty" class="form-control">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            <label class="d-md-block d-lg-none mx-auto">Item 6</label>
-                            <div class="col-md-6">
+
+                            <label class="d-md-block d-lg-none mx-auto text-center">Item 6</label>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="form-group d-flex">
                                     <select name="item" class="form-control">
                                         <option value=""></option>
@@ -404,21 +407,24 @@
                                         <option value="Tres Leches">Tres Leches</option>
                                         <option value="Traditional Flan">Traditional Flan</option>
                                     </select>
-                                    <select name="qty" class="form-control col-md-3">
-                                        <option value="0">0</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                    </select>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <select name="qty" class="form-control">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                         <!-- Modal footer -->
                         <div class="modal-footer">
@@ -429,23 +435,20 @@
                 </div>
             </div>
         </div>
+    </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="/js/index.js"></script>
 
-        <script src="http://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-        </script>
-        <script src="/js/lightslider.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
-        </script>
-        <script src="/js/index.js"></script>
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    </script>
 
-        <script>
-            // Get the current year for the copyright
-            $('#year').text(new Date().getFullYear());
-        </script>
 </body>
 
 </html>

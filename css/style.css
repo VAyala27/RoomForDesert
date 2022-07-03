@@ -12,6 +12,10 @@ li {
   list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 .blockquote-footer,
 cite {
   font-family: "Euphoria Script";
@@ -60,4 +64,24 @@ cite {
 
 .map {
   height: 75vh !important;
+}
+
+.slider img,
+.gallery img{
+  width: 300px;
+  height: 300px;
+}
+
+
+#main-footer ul{
+  padding: 0;
+}
+
+#main-footer .fab{
+  color: #fff;
+  transition:  color .3s ease-in-out;
+}
+
+#main-footer ul li a i:hover{
+  color: black;
 }
